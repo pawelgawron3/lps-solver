@@ -17,7 +17,7 @@ def longest_prefix_suffix():
             j += 1
         pi[i] = j
 
-    print(f'Answer is: {pi[n - 1]}')
+    print(f'Answer: {pi[n - 1]}')
     # word = slice(0, pi[n - 1])
     # print(f'The longest prefix-suffix: {s[word]}')
 
